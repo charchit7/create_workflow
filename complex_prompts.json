@@ -1,0 +1,44 @@
+{
+    "prompts": [
+      {
+        "id": 1,
+        "text": "A silver-haired scientist in her 60s wearing a lab coat, looking through a high-tech microscope in a futuristic laboratory with holographic displays in the background."
+      },
+      {
+        "id": 2,
+        "text": "A tattooed chef with a mohawk, wearing a black apron, flame-grilling steaks in an industrial-style open kitchen with customers visible at the bar."
+      },
+      {
+        "id": 3,
+        "text": "A ballerina with her hair in a tight bun, performing a graceful arabesque on a dimly lit stage, with soft spotlights and an ornate theater backdrop."
+      },
+      {
+        "id": 4,
+        "text": "An astronaut in a white spacesuit with a reflective visor, floating above the curved surface of the Earth, with the blackness of space and distant stars visible."
+      },
+      {
+        "id": 5,
+        "text": "A stern-looking judge with grey hair and glasses, wearing traditional robes, sitting behind a raised bench in a wood-paneled courtroom filled with people."
+      },
+      {
+        "id": 6,
+        "text": "A young graffiti artist with colorful paint-splattered clothes, creating a vibrant mural on a brick wall in a busy urban alleyway at dusk."
+      },
+      {
+        "id": 7,
+        "text": "An elderly yoga instructor with long silver hair in a braid, demonstrating a complex pose on a cliff overlooking a serene ocean at sunrise."
+      },
+      {
+        "id": 8,
+        "text": "A muscular firefighter covered in soot, carrying a child through the smoky doorway of a burning building with flames visible in the background."
+      },
+      {
+        "id": 9,
+        "text": "A bearded lumberjack wearing a plaid shirt and suspenders, chopping wood with an axe in a misty pine forest with a log cabin visible in the distance."
+      },
+      {
+        "id": 10,
+        "text": "A stylish DJ with neon-colored hair and futuristic sunglasses, mixing tracks on a high-tech console at a crowded outdoor music festival at night."
+      }
+    ]
+  }

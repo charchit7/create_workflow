@@ -1,0 +1,44 @@
+{
+    "prompts": [
+      {
+        "id": 1,
+        "text": "A tall woman in her 30s with long black hair, wearing a red business suit and high heels, standing confidently with hands on hips against a plain white background."
+      },
+      {
+        "id": 2,
+        "text": "An elderly man with a white beard, wearing khaki pants and a blue sweater, walking with a cane in front of a light grey wall."
+      },
+      {
+        "id": 3,
+        "text": "A young athletic man in running shorts and a tank top, mid-stride as if jogging, against a neutral beige backdrop."
+      },
+      {
+        "id": 4,
+        "text": "A ballerina with her hair in a bun, wearing a white tutu and pointe shoes, performing an arabesque pose in front of a mirror."
+      },
+      {
+        "id": 5,
+        "text": "A construction worker in a yellow hard hat, orange safety vest, jeans, and work boots, carrying a toolbox and standing in front of a plain concrete wall."
+      },
+      {
+        "id": 6,
+        "text": "A teenage girl with short purple hair, wearing ripped jeans and an oversized band t-shirt, sitting cross-legged on the floor against a white wall."
+      },
+      {
+        "id": 7,
+        "text": "A middle-aged man in a chef's uniform including a white double-breasted jacket and checkered pants, holding a large knife and smiling at the camera."
+      },
+      {
+        "id": 8,
+        "text": "An elderly woman in a floral dress and cardigan, sitting in a rocking chair and knitting, with a simple living room backdrop."
+      },
+      {
+        "id": 9,
+        "text": "A young boy in soccer uniform and cleats, kicking a ball, captured mid-action against a solid green background."
+      },
+      {
+        "id": 10,
+        "text": "A fashion model with long blonde hair, wearing an elaborate evening gown, striking a dramatic pose on a plain white runway."
+      }
+    ]
+  }

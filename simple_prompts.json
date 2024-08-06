@@ -1,0 +1,44 @@
+{
+    "prompts": [
+      {
+        "id": 1,
+        "text": "A smiling young woman with long brown hair, wearing a red t-shirt, standing against a plain white wall."
+      },
+      {
+        "id": 2,
+        "text": "An elderly man with glasses and a grey mustache, sitting in a simple wooden chair, with a solid blue background."
+      },
+      {
+        "id": 3,
+        "text": "A teenage boy with short black hair and freckles, wearing a green hoodie, looking directly at the camera with a neutral expression."
+      },
+      {
+        "id": 4,
+        "text": "A middle-aged woman with curly red hair, laughing and wearing a yellow sundress, standing in front of a beige curtain."
+      },
+      {
+        "id": 5,
+        "text": "A serious-looking man in his 30s with a beard, wearing a white dress shirt, against a light grey background."
+      },
+      {
+        "id": 6,
+        "text": "A young girl with pigtails and a missing front tooth, smiling and wearing a purple t-shirt, in front of a pastel pink wall."
+      },
+      {
+        "id": 7,
+        "text": "An athletic woman in her 20s with short blonde hair, wearing a blue sports top, against a plain off-white background."
+      },
+      {
+        "id": 8,
+        "text": "A balding middle-aged man with glasses, wearing a brown sweater, looking thoughtful against a cream-colored wall."
+      },
+      {
+        "id": 9,
+        "text": "A senior woman with silver hair in a bun, wearing a floral blouse, sitting on a simple chair with a light green background."
+      },
+      {
+        "id": 10,
+        "text": "A young man with dreadlocks, wearing a black t-shirt, looking to the side with a neutral expression, against a plain white backdrop."
+      }
+    ]
+  }
