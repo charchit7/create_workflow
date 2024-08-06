@@ -6,27 +6,6 @@ Install pytorch - `conda install pytorch torchvision torchaudio pytorch-cuda=11.
 Follow the instructions given here to install diffusers :
 https://huggingface.co/docs/diffusers/en/installation
 
-# Installation for Upscalar
-
-The codebase for Real-ESRGAN has old dependeicies of python which I fixed in this code-base: 
-
-```
-pip install basicsr
-pip install facexlib
-pip install gfpgan
-python setup.py develop
-```
-
-Download the weights 
-`wget https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth -P weights`
-
-Put the weight in the folder : `/create_workflow/super_resolution/Real-ESRGAN/weights`
-
-Then you can follow the code below to run the Upscalar - basically Real-ESRGAN
-
-
-
-
 # Instructions to run the code
 
 Folder_structure : 
@@ -38,7 +17,7 @@ Folder_structure :
 
 ```
 Format to run code : 
-python file_name.py path_to_prompt.json_file folder_to_save_results model_variant_to_run
+python generate_images.py path_to_prompt.json_file folder_to_save_results model_variant_to_run
 
 For model_variant_to_run replace with 
 -  sd1.5 for Stable Diffusion
@@ -54,7 +33,7 @@ python generate_images.py simple_prompts.json /home/charchit/create_workflow/tem
 - generate_images_with_sdxl_refiner.py contains code to run refiner version of the SDXL
 ```
 Format to run code:
-python file_name.py path_to_promt.json folder_to_save model_variant
+python generate_images_with_sdxl_refiner.py path_to_promt.json folder_to_save model_variant
 available variants :
 - v1 
 - v2
@@ -99,6 +78,24 @@ result = analyze_image('/path/to/your/image.png', '<DETAILED_CAPTION>')
 print(result)
 ```
 
+# Installation for Upscalar
+
+The codebase for Real-ESRGAN has old dependeicies of python which I fixed in this code-base: 
+
+```
+pip install basicsr
+pip install facexlib
+pip install gfpgan
+python setup.py develop
+```
+
+Download the weights 
+`wget https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth -P weights`
+
+Put the weight in the folder : `/create_workflow/super_resolution/Real-ESRGAN/weights`
+
+Then you can follow the code below to run the Upscalar - basically Real-ESRGAN
+
 
 # Instruction to run the Upscalar
 go to the folder :
@@ -120,3 +117,10 @@ python inference_realesrgan.py -n RealESRGAN_x4plus -i /home/charchit/create_wor
 ```
 
 Drive Link for generated Images : `https://drive.google.com/drive/folders/1V5kUqhor6w-O1WwMIVrJ3scyXXlAvEBe?usp=drive_link`
+
+# Notebook to run the generation code
+
+```
+After installation of diffusers please check generate_and_test_images.ipynb
+```
+This notebook has sample codes to run directly for generating images from SDXL and SD1.5 and other codes to run captions and compare results
